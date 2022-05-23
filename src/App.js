@@ -31,7 +31,7 @@ function App() {
 				<button type="submit" onClick={(e) => encrypt(e)}>Encrypt</button>
 				<button type="button" onClick={decrypt}>Decrypt</button>
 			</form>
-			<h6>{word}</h6>
+			<h5>{word}</h5>
 		</div>
 	);
 }
